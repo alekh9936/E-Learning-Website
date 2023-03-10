@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: wheat;
+    font-weight: 900;
+    color: orangered;
+  }
+  
+  header {
+    background-color: orangered;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  
+  .hero {
+    background-image: url("hero.webp");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-decoration-line: underline;
+    text-decoration-color: orangered;
+  }
+
+  .cta {
+    background-color: orangered;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+
+  
+ a{
+  text-decoration: none;;
+ }
+  
+  .courses {
+    padding: 2rem;
+  }
+  
+  .courses h2 {
+    text-align: center;
+  }
+  
+  .courses ul {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    display: inline-flex;
+    transition: transform 0.5s;
+  }
+
+  .courses li{
+    list-style: none;
+    margin: auto;
+    padding: 50px;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+
+  .courses li:hover {
+    transform: translateY(-10px);
+    }
+    
+  .feedback {
+	padding-top: 40px;
+ }
+  
+  .feedback .col-3 {
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0px orange;
+	cursor: pointer;
+	transition: transform 0.5s;
+  color: black;
+    }
+  
+  .feedback .col-3 img {
+	width: 100px;
+	margin-top: 20px;
+	border-radius: 50%;
+  }
+  
+  .feedback .col-3:hover {
+	transform: translateY(-10px);
+  }
+  
+  .ourteam {
+	margin-top: 0px;
+	padding: 10px 0;
+  transition: transform 0.5s;
+  }
+
+  .ourteam:hover{
+    transform: translateY(-10px);
+  }
+  
+  .col-2 .offer-img {
+	padding: 50px;
+  
+  }
+  
+  small {
+	color: #555;
+  }
+  .small-container{
+	background: radial-gradient(#fff, orange);
+  display: inline-flex;
+  }
+
+  .col-2 img {
+	width: 420px;
+ border-radius: 80%;
+ padding-left: 60px;
+}
+
+.ourteam .btn{
+  background-color: mediumslateblue;
+  color: whitesmoke;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer{
+  background: #fff;
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+  
